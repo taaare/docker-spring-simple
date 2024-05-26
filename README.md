@@ -30,3 +30,71 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Project Structure
 
+```plaintext
+DockerDemo
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── demo
+│   │   │               ├── DemoApplication.java
+│   │   │               └── HelloController.java
+├── target
+├── Dockerfile
+└── pom.xml
+
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/docker-demo.git
+cd docker-demo
+
+
+## Run the Application Locally
+### Run the JAR file directly to verify it works:
+
+
+java -jar target/docker-demo-0.0.1-SNAPSHOT.jar
+You should see the application start and be accessible at http://localhost:8080.
+
+## Build and Run the Docker Container
+### Build the Docker Image
+
+docker build -t my-java-app .
+Run the Docker Container
+
+docker run -p 8080:8080 my-java-app
+
+## Accessing the Application
+Once the Docker container is running, open your web browser and navigate to:
+
+http://localhost:8080
+
+You should see the message "Hello, Docker!".
+
+## Docker Commands
+Here are some useful Docker commands for managing your containers:
+
+List Running Containers
+
+docker ps
+Stop a Running Container
+
+docker stop <container_id_or_name>
+Remove a Stopped Container
+
+docker rm <container_id_or_name>
+View Container Logs
+
+docker logs <container_id_or_name>
+Remove the Docker Image
+
+docker rmi my-java-app
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
