@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed on your machine:
 ## Project Structure
 
 DockerDemo
-├── src
+```├── src
 │   ├── main
 │   │   ├── java
 │   │   │   └── com
@@ -41,7 +41,7 @@ DockerDemo
 │   │   │               └── HelloController.java
 ├── target
 ├── Dockerfile
-└── pom.xml
+└── pom.xml```
 
 
 ## Getting Started
