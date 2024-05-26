@@ -30,7 +30,6 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Project Structure
 
-```plaintext
 DockerDemo
 ├── src
 │   ├── main
