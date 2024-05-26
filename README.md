@@ -49,7 +49,7 @@ DockerDemo
 
 ### Clone the Repository
 
-git clone https://github.com/your-username/docker-demo.git
+git clone https://github.com/taaare/docker-demo.git
 cd docker-demo
 
 
