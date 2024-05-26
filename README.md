@@ -49,7 +49,6 @@ DockerDemo
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/your-username/docker-demo.git
 cd docker-demo
 
