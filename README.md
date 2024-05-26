@@ -1,6 +1,6 @@
 # Dockerized Spring Boot Application
 
-This project demonstrates a simple Spring Boot application that is containerized using Docker. The application includes a REST controller that returns "Hello, Docker!" when accessed.
+This was a very simple Spring Boot application that is containerizered with Docker. I built this to understand the underlying technology from the ground up. 
 
 ## Table of Contents
 
